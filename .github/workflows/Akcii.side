@@ -1,0 +1,533 @@
+{
+  "id": "a98ad68b-9b33-4793-a15b-35508ea670f1",
+  "version": "2.0",
+  "name": "Akcii",
+  "url": "https://kistochki.ru/akcii",
+  "tests": [{
+    "id": "c35fddbc-59a5-4f05-80ce-4b795ca07dbe",
+    "name": "id_1",
+    "commands": [{
+      "id": "ddac49a9-6115-4f21-90e3-a7821fe5aba4",
+      "comment": "",
+      "command": "open",
+      "target": "https://kistochki.ru",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80fd7ea0-2acd-44c1-a1f0-796f6e32e7bc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1164x727",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91eceaf1-798e-4dec-bf1e-432c49504b2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toggle__Line:nth-child(2)",
+      "targets": [
+        ["css=.Toggle__Line:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/header/div/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da00d474-1574-4f4a-87bb-bb9dbd03734f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Toggle__Line:nth-child(2)",
+      "targets": [
+        ["css=.Toggle__Line:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/header/div/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "642aaa81-0998-4df7-9c69-db74cc723a4f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Toggle__Line:nth-child(2)",
+      "targets": [
+        ["css=.Toggle__Line:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/header/div/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45f0b6f0-890a-4a94-a959-e13c5f09c128",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Toggle",
+      "targets": [
+        ["css=.Toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div/header/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ddaed90-f049-4646-bcd2-c38d5c413d6f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Toggle",
+      "targets": [
+        ["css=.Toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div/header/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31418dbb-5649-487e-b603-af3adce54d6c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Акции",
+      "targets": [
+        ["linkText=Акции", "linkText"],
+        ["css=.Menu__Item .Nav__Item:nth-child(3) > .Nav__Link", "css:finder"],
+        ["xpath=//a[contains(text(),'Акции')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div/div/div/div/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0961aa64-2f1c-4ea5-94cf-0a96274c0142",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Акции",
+      "targets": [
+        ["linkText=Акции", "linkText"],
+        ["css=.Menu__Item .Nav__Item:nth-child(3) > .Nav__Link", "css:finder"],
+        ["xpath=//a[contains(text(),'Акции')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div/div/div/div/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "58c761c4-6008-4d9e-a221-d3bcebdb0f7d",
+    "name": "id_2",
+    "commands": [{
+      "id": "c0ec14d5-c7df-4f6f-ab31-bf399571b1ba",
+      "comment": "",
+      "command": "open",
+      "target": "https://kistochki.ru",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "094d9b86-8be2-4f3e-897a-6f929e110503",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7bd0de3-7d65-4af9-96f7-695dc9f2666c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,240)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "840187a9-a4bb-4553-9401-328da22544cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Акции",
+      "targets": [
+        ["linkText=Акции", "linkText"],
+        ["css=.Nav__Item:nth-child(3) > .Nav__Link", "css:finder"],
+        ["xpath=//a[contains(text(),'Акции')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/footer/div/div/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/akcii')])[20]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f79fa273-11c3-45ba-98b1-d51d5f0c373e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d7909b7d-df00-4a09-931d-9136668dfb02",
+    "name": "id_4",
+    "commands": [{
+      "id": "c085479d-f8d6-4982-9a6f-e548a15a93dd",
+      "comment": "",
+      "command": "open",
+      "target": "https://kistochki.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c07f4492-658e-4b65-abf4-68350a82ba9e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b166043a-f792-482f-bd48-8226f63e56ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Бонусная программа",
+      "targets": [
+        ["linkText=Бонусная программа", "linkText"],
+        ["css=.AsideNav__Item:nth-child(2) > .AsideNav__Link", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/bonusnaya-programma')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Бонусная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b147df87-b1d9-4220-b8b3-eec7c2a87bb7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Бонусная программа",
+      "targets": [
+        ["linkText=Бонусная программа", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/bonusnaya-programma')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Бонусная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "880d1e55-c064-4950-b2d4-51f76791874b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Бонусная программа",
+      "targets": [
+        ["linkText=Бонусная программа", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/bonusnaya-programma')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Бонусная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7362072a-deed-4d1c-84ac-884146774a8c",
+    "name": "id_5",
+    "commands": [{
+      "id": "0d418d41-fd13-40ae-99dc-8b7d7610afad",
+      "comment": "",
+      "command": "open",
+      "target": "https://kistochki.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d14e154c-eb9e-492b-88dc-92cf8da7ce2d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a95501a-36f5-4ce4-a6d0-3dec71ee7a43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Реферальная программа",
+      "targets": [
+        ["linkText=Реферальная программа", "linkText"],
+        ["css=.AsideNav__Item:nth-child(3) > .AsideNav__Link", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/referalnaya-programma')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реферальная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "252e6e6b-cb85-45ce-b3f8-bd69e998fc69",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Реферальная программа",
+      "targets": [
+        ["linkText=Реферальная программа", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/referalnaya-programma')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реферальная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3ab0ab7-07ef-4480-8b13-1506c5a139f1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Реферальная программа",
+      "targets": [
+        ["linkText=Реферальная программа", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/referalnaya-programma')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реферальная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eb29e29f-a20a-4700-893c-3e2bc9865df6",
+    "name": "id_6",
+    "commands": [{
+      "id": "f96aab97-5cd6-4aac-bb3b-6e35add58773",
+      "comment": "",
+      "command": "open",
+      "target": "https://kistochki.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a5933ec-a806-4ef3-adfd-7603371b26ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1164x727",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90a89765-8c4e-428c-b917-f097b6c03b07",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Бонусная программа",
+      "targets": [
+        ["linkText=Бонусная программа", "linkText"],
+        ["css=.AsideNav__Item:nth-child(2) > .AsideNav__Link", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/bonusnaya-programma')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Бонусная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ffdd7ae-7cfd-48d5-8fa3-1ef02a1ce528",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Бонусная программа",
+      "targets": [
+        ["linkText=Бонусная программа", "linkText"],
+        ["css=.AsideNav__Item:nth-child(2) > .AsideNav__Link", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/bonusnaya-programma')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Бонусная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9774ae00-1d91-4c0d-8a52-fcb4a6949162",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Бонусная программа",
+      "targets": [
+        ["linkText=Бонусная программа", "linkText"],
+        ["css=.AsideNav__Item:nth-child(2) > .AsideNav__Link", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/bonusnaya-programma')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Бонусная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f3515e7-e30e-4a78-a527-9e31caa6ba67",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Бонусная программа",
+      "targets": [
+        ["linkText=Бонусная программа", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/bonusnaya-programma')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Бонусная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7658a168-b885-47b4-a2c5-b30a440747ba",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Бонусная программа",
+      "targets": [
+        ["linkText=Бонусная программа", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/bonusnaya-programma')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Бонусная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bff2ef2a-616c-4eec-90fa-7b58d124bf54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Акции",
+      "targets": [
+        ["linkText=Акции", "linkText"],
+        ["css=.AsideNav__Item:nth-child(1) > .AsideNav__Link", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a677dc57-4e8e-4f01-a626-288ffc2c6aac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Реферальная программа",
+      "targets": [
+        ["linkText=Реферальная программа", "linkText"],
+        ["css=.AsideNav__Item:nth-child(3) > .AsideNav__Link", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/referalnaya-programma')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реферальная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79c45e85-0ac8-4db4-a61f-08f8d2e64d84",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Реферальная программа",
+      "targets": [
+        ["linkText=Реферальная программа", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/referalnaya-programma')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реферальная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6f751d5-8a39-41b6-9119-89079a9f4127",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Реферальная программа",
+      "targets": [
+        ["linkText=Реферальная программа", "linkText"],
+        ["css=.nuxt-link-exact-active", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/referalnaya-programma')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реферальная программа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a31125d3-0fcb-45ed-928d-90eaa8d9c5af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Акции",
+      "targets": [
+        ["linkText=Акции", "linkText"],
+        ["css=.AsideNav__Item:nth-child(1) > .AsideNav__Link", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div[2]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d4d11066-7f96-4ab1-974c-0bc12a85a705",
+    "name": "id_7",
+    "commands": [{
+      "id": "2eb38401-4219-4c88-956f-a27bb2f8b7ca",
+      "comment": "",
+      "command": "open",
+      "target": "https://kistochki.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a3f8870-44c8-4983-b0cc-23fb15f651e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b26bd25f-0d6f-4656-a15f-175e7a6e191c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Button--outline",
+      "targets": [
+        ["css=.Button--outline", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Обратный звонок')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc200baa-2545-45c2-9c5a-c521cf35d9d2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Button--outline",
+      "targets": [
+        ["css=.Button--outline", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Обратный звонок')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cea2f0e4-602e-46d1-95d9-2f2d96ec708c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardPopular:nth-child(1) .More__Icon",
+      "targets": [
+        ["css=.CardPopular:nth-child(1) .More__Icon", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3ecf55fc-de61-4716-ac82-cf2078948e37",
+    "name": "id_8",
+    "commands": [{
+      "id": "662cdde3-db2b-4f35-bab4-63c565164b0c",
+      "comment": "",
+      "command": "open",
+      "target": "https://kistochki.ru/akcii",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "738c6404-5f17-4069-977d-a3d02bd9e879",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5cae56e-4e91-492b-8ffa-314231c98766",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Маникюр с покрытием гель-лак за 770 руб.",
+      "targets": [
+        ["linkText=Маникюр с покрытием гель-лак за 770 руб.", "linkText"],
+        ["css=.CardPopular:nth-child(1) .CardPopular__Title", "css:finder"],
+        ["xpath=//a[contains(text(),'Маникюр с покрытием гель-лак за 770 руб.')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/akcii/manikyur-s-pokrytiem-gel-lak-za-770-rub')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Маникюр с покрытием гель-лак за 770 руб.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2dbc6497-a309-4e95-82ea-6a03bfd6f443",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c35fddbc-59a5-4f05-80ce-4b795ca07dbe"]
+  }],
+  "urls": ["https://kistochki.ru/", "https://kistochki.ru/akcii"],
+  "plugins": []
+}
